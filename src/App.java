@@ -5,6 +5,12 @@ public class App {
         {
             System.out.println(varv);
             varv++;
+        } 
+
+        for (int runda=0; runda<6; runda++)
+        {
+            System.out.println(runda);
         }
+
     }
 }
