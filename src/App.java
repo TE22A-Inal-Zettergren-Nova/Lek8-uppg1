@@ -12,5 +12,12 @@ public class App {
             System.out.println(runda);
         }
 
+        varv=2;
+        do{
+            System.out.println(varv);
+            varv++;
+        }
+        while(varv<6);
+
     }
 }
