@@ -33,5 +33,11 @@ public class App {
             System.out.println(s);
             s--;
         }
+
+        /*Ny for loop */
+        System.out.println("");
+        for(int f=5; f>-1; f--){
+            System.out.println(f);
+        }
     }
 }
