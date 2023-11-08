@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) throws Exception {
          /*WHILE-LOOP */
@@ -39,5 +41,28 @@ public class App {
         for(int f=5; f>-1; f--){
             System.out.println(f);
         }
+
+        /*ARRAY */
+        Scanner tb = new Scanner(System.in);
+        int[] tal = new int[5];
+
+        for(int g=0; g < tal.length; g++)
+        {
+            System.out.println("Skriv in tal: ");
+            tal[g] = tb.nextInt();
+        }
+        System.out.println(" ");
+        for(int g: tal)
+        {
+            System.out.println(g);
+        }
+
+
+
+
+        
+
+        
+
     }
 }
