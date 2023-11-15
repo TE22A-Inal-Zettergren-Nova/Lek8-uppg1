@@ -68,6 +68,17 @@ public class App {
             System.out.println(g);
         }
 
+        //Figurer//
+        System.out.println("Skriv ett tal: ");
+        int talet = tb.nextInt();
+        
+
+        for(;talet!=0; talet--)
+        {
+            System.out.print("*");
+        }
+
+        
        
         
     }
