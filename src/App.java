@@ -43,8 +43,10 @@ public class App {
         }
 
         /*ARRAY */
+        
         Scanner tb = new Scanner(System.in);
         int[] tal = new int[5];
+        int v = 0;
 
         for(int g=0; g < tal.length; g++)
         {
@@ -52,17 +54,21 @@ public class App {
             tal[g] = tb.nextInt();
         }
         System.out.println(" ");
+       
+        v = tal[0];
+        tal[0] = tal[4];
+        tal[4] = v;
+
+        v = tal[1];
+        tal[1] = tal[3];
+        tal[3] = v;
+
         for(int g: tal)
         {
             System.out.println(g);
         }
 
-
-
-
+       
         
-
-        
-
     }
 }
