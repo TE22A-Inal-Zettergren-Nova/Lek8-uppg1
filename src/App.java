@@ -71,14 +71,29 @@ public class App {
         //Figurer//
         System.out.println("Skriv ett tal: ");
         int talet = tb.nextInt();
-        
 
-        for(;talet!=0; talet--)
+        System.out.println("Hur många rader: ");
+        int rader = tb.nextInt();
+
+        for(int i=0; i<rader;i++)
         {
+            System.out.println(" ");
+            for(int j=0; j<talet; j++)
+            {
+            
             System.out.print("*");
+            }
         }
 
+
+
+
+
+
+
+
         
+
        
         
     }
